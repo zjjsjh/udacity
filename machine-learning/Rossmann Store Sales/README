@@ -1,0 +1,19 @@
+数据集来源：https://www.kaggle.com/c/rossmann-store-sales/data
+xgboost安装:1.下载xgboost
+                打开(https://www.lfd.uci.edu/~gohlke/pythonlibs/#xgboost) 下载 xgboost-0.7-cp36-cp36m-win_amd64.whl
+            2.安装xgboost
+                下载好后进入whl包的目录下安装
+                pip install xgboost-0.7-cp36-cp36m-win_amd64.whl
+安装numpy、pandas、matplotlib和scikit-learn
+
+文件说明：
+  model_ensemble.py 多个模型融合，得到最终模型
+  model_params.py 对模型进行调参
+  xgboost_models.py 选择20个特征子集，生产xgboost模型
+  capstone.ipynb 数据可视化，决策树模型生成，xgboost模型生成
+  output/ensemble 存放最终模型的预测结果
+  output/features 20个模型选用的特征子集
+  output/test_predict 模型预测结果
+  store.csv、train.csv、test.csv 测试数据集
+
+每个xgboost模型运行时间40分钟到60分钟

@@ -1,0 +1,1 @@
+['SalesAvgPerStore', 'CustomersAvgPerStore', 'Month', 'DayOfWeek', 'SalesAvgPerCustomer', 'CustomersAvgPerDow', 'SalesMedPerDow', 'SalesAvgPerDow', 'CompetitionDistance', 'WeekOfYear', 'Store', 'PromoOpen', 'CompetitionOpen', 'DayOfYear', 'Day', 'Promo', 'SalesPerSchoolHoliday', 'SalesPerStateHoliday', 'holidays_nextweek', 'StoreType', 'holidays_thisweek', 'IsPromoMonth']
